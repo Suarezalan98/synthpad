@@ -1,0 +1,62 @@
+[
+    {
+      "fileName": "Pad-80s-Kick",
+      "displayName": "Kick 1",
+      "instrumentType": "DRUM"
+    },
+    {
+      "fileName": "Pad-Bass-Guitar-Part1-100bpm-Fmaj",
+      "displayName": "Bass 1",
+      "instrumentType": "BASS"
+    },
+    {
+      "fileName": "Pad-Bass-Guitar-Part2-100bpm-Fmaj",
+      "displayName": "Bass 2",
+      "instrumentType": "BASS"
+    },
+    {
+      "fileName": "Pad-Clap",
+      "displayName": "Clap 1",
+      "instrumentType": "PERC"
+    },
+    {
+      "fileName": "Pad-Downsweep-Fx-Fmaj",
+      "displayName": "Downsweep 1",
+      "instrumentType": "FX"
+    },
+    {
+      "fileName": "Pad-Guitar-100bpm-Fmaj",
+      "displayName": "Guitar 1",
+      "instrumentType": "GUITAR"
+    },
+    {
+      "fileName": "Pad-Guitar-Full-100bpm-Fmaj",
+      "displayName": "Guitar 2",
+      "instrumentType": "GUITAR"
+    },
+    {
+      "fileName": "Pad-Hi-hat-100bpm",
+      "displayName": "Hit hat 1",
+      "instrumentType": "DRUM"
+    },
+    {
+      "fileName": "Pad-Perc-FX-Fmaj",
+      "displayName": "Perc 1",
+      "instrumentType": "PERC"
+    },
+    {
+      "fileName": "Pad-Retro-Snare",
+      "displayName": "Snare 1",
+      "instrumentType": "DRUM"
+    },
+    {
+      "fileName": "Pad-Rhode-100bpm-Fmaj",
+      "displayName": "Rhode 1",
+      "instrumentType": "CHORD"
+    },
+    {
+      "fileName": "Pad-Woo-Fx",
+      "displayName": "Woo 1",
+      "instrumentType": "FX"
+    }
+  ]

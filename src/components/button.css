@@ -1,0 +1,32 @@
+/* .fx {
+  background-image: linear-gradient(to right, #e09e10, #f4c45e, #e09e10);
+  padding: 2.5em;
+  font-size: 16px;
+  margin: 4px 2px;
+  flex: 1 0;
+  border-radius: 0.2em;
+  max-width: 6em;
+  text-align: center;
+}
+
+.bass {
+  background-image: linear-gradient(to right, #e25ca7, #f4c0dd, #e25ca7);
+  padding: 2.5em;
+  font-size: 16px;
+  margin: 4px 2px;
+  flex: 1 0;
+  border-radius: 0.2em;
+  max-width: 6em;
+  text-align: center;
+} */
+
+.button {
+  background-image: linear-gradient(to right, #0096c7, #8ce3ff, #0096c7);
+  padding: 2.5em;
+  font-size: 16px;
+  margin: 4px 2px;
+  flex: 1 0;
+  border-radius: 0.2em;
+  max-width: 6em;
+  text-align: center;
+}

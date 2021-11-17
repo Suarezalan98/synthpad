@@ -1,9 +1,17 @@
 import React from "react";
+import "./button.css";
 
-export function Button() {
+export function Button(props) {
+  const { sm, fileName } = props;
+  const [inst, id] = fileName.split("-");
+
+  function handleClick() {
+    sm.play(fileName);
+  }
+
   return (
-    <div>
-      <button>button</button>
-    </div>
+    <button className="button" onClick={handleClick}>
+      {inst.toUpperCase()} {id}
+    </button>
   );
 }

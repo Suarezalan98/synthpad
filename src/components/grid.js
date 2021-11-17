@@ -1,9 +1,10 @@
 import React from "react";
+import "./grid.css";
 
 export function Grid(props) {
-  return <div style={{ border: "4px solid green" }}>{props.children}</div>;
+  return <div className="grid">{props.children}</div>;
 }
 
 export function Row(props) {
-  return <div style={{ border: "4px solid blue" }}>{props.children}</div>;
+  return <div className="row">{props.children}</div>;
 }
