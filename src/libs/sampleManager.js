@@ -87,6 +87,15 @@ export class SampleManager extends EventTarget {
       el.play();
     }
   };
+  
+  buttonActive = (fileName) => {
+    const el = this.audioElements.get(fileName);
+    if (!el.paused) {
+      return true;
+    } else {
+      return false;
+    }
+  }
 
   stopAllAudio = () => {
     this.audioElements.forEach((element) => element.pause());

@@ -1,32 +1,82 @@
-/* .fx {
-  background-image: linear-gradient(to right, #e09e10, #f4c45e, #e09e10);
+/* colors
+bodybg: #674172;
+darkgrey: #333;
+whitegrey: #ececec;
+yellow: #f1c40f;
+turquoise: #1abc9c;
+red: #e74c3c;
+blue: #3498db;
+orange: #e67e22;
+*/
+
+.button {
+  /* background-image: linear-gradient(to right, #0096c7, #8ce3ff, #0096c7);
   padding: 2.5em;
   font-size: 16px;
   margin: 4px 2px;
   flex: 1 0;
   border-radius: 0.2em;
   max-width: 6em;
-  text-align: center;
+  text-align: center; */
+  font-size: 0.75rem;
+  background: none;
+  border: 0.175em solid whitesmoke;
+  padding: 1.4em 3.3em;
+  color: whitesmoke;
+  text-transform: uppercase;
+  letter-spacing: 0.25em;
+  border-radius: 0.5em;
+  cursor: pointer;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.drum {
+  color: #3498db;
+  border-color: #3498db;
+  box-shadow: 0 0 0 0 #3498db, inset 0 0 0 0 #3498db;
+  transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+}
+
+.drum-active {
+  color: whitesmoke;
+  box-shadow: 0 0 40px 0 #3498db, inset 0 0 200px 5px #3498db;
+}
+
+.fx {
+  color: #f1c40f;
+  border-color: #f1c40f;
+  box-shadow: 0 0 0 0 #f1c40f, inset 0 0 0 0 #f1c40f;
+  transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+}
+
+.fx-active {
+  color: whitesmoke;
+  box-shadow: 0 0 40px 0 #f1c40f, inset 0 0 200px 5px #f1c40f;
+}
+
+.core {
+  color: #e67e22;
+  border-color: #e67e22;
+  box-shadow: 0 0 0 0 #e67e22, inset 0 0 0 0 #e67e22;
+  transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+}
+
+.core-active {
+  color: whitesmoke;
+  box-shadow: 0 0 40px 0 #e67e22, inset 0 0 200px 5px #e67e22;
 }
 
 .bass {
-  background-image: linear-gradient(to right, #e25ca7, #f4c0dd, #e25ca7);
-  padding: 2.5em;
-  font-size: 16px;
-  margin: 4px 2px;
-  flex: 1 0;
-  border-radius: 0.2em;
-  max-width: 6em;
-  text-align: center;
-} */
+  color: #e74c3c;
+  border-color: #e74c3c;
+  box-shadow: 0 0 0 0 #e74c3c, inset 0 0 0 0 #e74c3c;
+  transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+}
 
-.button {
-  background-image: linear-gradient(to right, #0096c7, #8ce3ff, #0096c7);
-  padding: 2.5em;
-  font-size: 16px;
-  margin: 4px 2px;
-  flex: 1 0;
-  border-radius: 0.2em;
-  max-width: 6em;
-  text-align: center;
+.bass-active {
+  color: whitesmoke;
+  box-shadow: 0 0 40px 0 #e74c3c, inset 0 0 200px 5px #e74c3c;
 }

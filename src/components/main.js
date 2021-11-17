@@ -17,7 +17,7 @@ export function Main(props) {
   }, [props.sm, state]);
 
   return (
-    <div className="main">
+    <div className="container">
       <div style={{ padding: ".5em" }}>
         <h2>{state.ready ? "Ready" : "Loading Audio Files"}</h2>
         <label htmlFor="volume">Volume: {state.volume}</label>
@@ -35,32 +35,34 @@ export function Main(props) {
         />
       </div>
       <StopAudioButton sm={props.sm} />
+      <div className="pad">
       <Grid>
         <Row>
           {/* row 1 */}
-          <Button sm={props.sm} fileName="Pad-Downsweep-Fx-Fmaj" />
-          <Button sm={props.sm} fileName="Pad-Bass-Guitar-Part1-100bpm-Fmaj" />
-          <Button sm={props.sm} fileName="Pad-Bass-Guitar-Part2-100bpm-Fmaj" />
+          <Button sm={props.sm} fileName="Pad-Downsweep-Fx-Fmaj" btnType="fx" />
+          <Button sm={props.sm} fileName="Pad-Bass-Guitar-Part1-100bpm-Fmaj" btnType="bass"/>
+          <Button sm={props.sm} fileName="Pad-Bass-Guitar-Part2-100bpm-Fmaj" btnType="bass"/>
         </Row>
         <Row>
           {/* row 2 */}
-          <Button sm={props.sm} fileName="Pad-Woo-Fx" />
-          <Button sm={props.sm} fileName="Pad-Guitar-100bpm-Fmaj" />
-          <Button sm={props.sm} fileName="Pad-Guitar-Full-100bpm-Fmaj" />
+          <Button sm={props.sm} fileName="Pad-Woo-Fx" btnType="fx"/>
+          <Button sm={props.sm} fileName="Pad-Guitar-100bpm-Fmaj" btnType="core"/>
+          <Button sm={props.sm} fileName="Pad-Guitar-Full-100bpm-Fmaj" btnType="core"/>
         </Row>
         <Row>
           {/* row 3 */}
-          <Button sm={props.sm} fileName="Pad-Perc-FX-Fmaj" />
-          <Button sm={props.sm} fileName="Pad-Hi-hat-100bpm" />
-          <Button sm={props.sm} fileName="Pad-Rhode-100bpm-Fmaj" />
+          <Button sm={props.sm} fileName="Pad-Perc-FX-Fmaj" btnType="fx"/>
+          <Button sm={props.sm} fileName="Pad-Hi-hat-100bpm" btnType="drum"/>
+          <Button sm={props.sm} fileName="Pad-Rhode-100bpm-Fmaj" btnType="core"/>
         </Row>
         <Row>
           {/* row 4 */}
-          <Button sm={props.sm} fileName="Pad-80s-Kick" />
-          <Button sm={props.sm} fileName="Pad-Retro-Snare" />
-          <Button sm={props.sm} fileName="Pad-Clap" />
+          <Button sm={props.sm} fileName="Pad-80s-Kick" btnType="drum"/>
+          <Button sm={props.sm} fileName="Pad-Retro-Snare" btnType="drum"/>
+          <Button sm={props.sm} fileName="Pad-Clap" btnType="drum"/>
         </Row>
       </Grid>
+      </div>
     </div>
   );
 }
