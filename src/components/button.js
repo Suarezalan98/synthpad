@@ -11,11 +11,11 @@ export function Button(props) {
 
   function btnActive() {
     const active = sm.buttonActive(fileName)
-    if (!active) {
-      return btnType 
-    } else {
-      return `${btnType}-active`
-    }    
+      if (!active) {
+        return btnType 
+      } else {
+        return `${btnType}-active`
+      }    
   }
 
 
