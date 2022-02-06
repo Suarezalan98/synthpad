@@ -3,15 +3,12 @@
 }
 
 .container {
-  margin: 100px, auto;
+  margin: 1rem auto;
   padding: 0;
-  width: 360px;
+  width: 46rem;
   text-align: center;
 }
 
 .pad {
-  width: 360px;
-  height: 360px;
-  padding: 10px;
-  /* background: #eee; */
+  padding: 1rem;
 }

@@ -20,7 +20,7 @@ export function Button(props) {
 
 
   return (
-    <button className={`button ${btnActive()}`} onClick={handleClick}>
+    <button className={`btn ${btnActive()}`} onClick={handleClick}>
       {inst.toUpperCase()} {id}
     </button>
   );

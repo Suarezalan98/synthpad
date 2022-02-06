@@ -9,7 +9,7 @@ blue: #3498db;
 orange: #e67e22;
 */
 
-.button {
+.btn {
   /* background-image: linear-gradient(to right, #0096c7, #8ce3ff, #0096c7);
   padding: 2.5em;
   font-size: 16px;
@@ -21,7 +21,7 @@ orange: #e67e22;
   font-size: 0.75rem;
   background: none;
   border: 0.175em solid whitesmoke;
-  padding: 1.4em 3.3em;
+  padding: 3.5em 3em;
   color: whitesmoke;
   text-transform: uppercase;
   letter-spacing: 0.25em;
@@ -29,7 +29,7 @@ orange: #e67e22;
   cursor: pointer;
 }
 
-.button:focus {
+.btn:focus {
   outline: none;
 }
 
